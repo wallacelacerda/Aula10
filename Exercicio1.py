@@ -8,6 +8,7 @@ except:
     print("ERRO!")
 else:
     print("Calculo feito com sucesso!")
-
+    opiniao = input("Deixe sua opinião sobre codigo")
+    print("Sua opinião é: ", opiniao)
 finally:
     print("Fim do calculo")           
